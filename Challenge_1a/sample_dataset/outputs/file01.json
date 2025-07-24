@@ -1,4 +1,80 @@
 {
-    "title": "Application form for grant of LTC advance  ",
-    "outline": []
+  "title": "file01",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Application form for grant of LTC advance",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Name of the Government Servant",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Designation",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Date of entering the Central Government",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Whether permanent or temporary",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Home Town as recorded in the Service Book",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "so whether entitled to LTC",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Whether the concession is to be availed for",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "visiting home town and if so block for which",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "10.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "S.No",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Relationship",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "11.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "12.  Amount of advance required.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Date",
+      "page": 1
+    }
+  ]
 }
