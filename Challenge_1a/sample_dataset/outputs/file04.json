@@ -13,13 +13,97 @@
     },
     {
       "level": "H2",
-      "text": "Elective Course Offerings",
+      "text": "REGULAR PATHWAY",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "the 4 years . *",
       "page": 1
     },
     {
       "level": "H2",
-      "text": "What Colleges Say!",
+      "text": "DISTINCTION PATHWAY",
       "page": 1
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        6.175137996673584,
+        28.612403869628906,
+        579.2763671875,
+        68.76384735107422
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Parsippany -Troy Hills STEM Pathways"
+        ]
+      ],
+      "col_count": 3,
+      "row_count": 1
+    },
+    {
+      "page": 1,
+      "bbox": [
+        56.63056945800781,
+        434.9474182128906,
+        548.3015365600586,
+        774.4023193359375
+      ],
+      "rows": [
+        [
+          "PATHWAY OPTIONS",
+          null
+        ],
+        [
+          "REGULAR PATHWAY\n● 4 credits of Math\n● 4 credits of Science\n● 4 credits of STEM-designated electives\n● Maintain an overall 2.85 GPA\n● Participate in a minimum of 3 STEM\npresentations/conferences each year\nwith a required minimum total of 12\npresentations/conferences throughout\nthe 4 years. *\n● Join and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance. -",
+          "DISTINCTION PATHWAY\n● 4 credits of Math - At least one math\ncourse should be an AP Math class.\n● 4 credits of Science- At least one\nscience course should be an AP\nScience class.\n● 4 credits of STEM-designated electives\n- One must be a Computer\nScience/Technology Class\n● Maintain an overall 3.5 GPA\n● Participate in a minimum of 3 STEM\npresentations/conferences a year with a\nrequired minimum total of 12\npresentations/conferences throughout\nthe 4 years.\n● Join and actively participate in a\nSTEM-related extracurricular activity or\nclub every year of attendance.\n● Either participate in an internship or\ndesign and implement a community\nimpact project."
+        ]
+      ],
+      "col_count": 2,
+      "row_count": 2
+    },
+    {
+      "page": 1,
+      "bbox": [
+        117.33221689860027,
+        467.76025390625,
+        242.13191604614258,
+        486.44020080566406
+      ],
+      "rows": [
+        [
+          "REGULAR PATHWAY"
+        ],
+        [
+          ""
+        ]
+      ],
+      "col_count": 1,
+      "row_count": 2
+    },
+    {
+      "page": 1,
+      "bbox": [
+        350.76619720458984,
+        467.76025390625,
+        499.52349853515625,
+        486.44020080566406
+      ],
+      "rows": [
+        [
+          "DISTINCTION PATHWAY"
+        ],
+        [
+          ""
+        ]
+      ],
+      "col_count": 1,
+      "row_count": 2
     }
   ]
 }

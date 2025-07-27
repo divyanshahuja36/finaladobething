@@ -8,62 +8,17 @@
     },
     {
       "level": "H3",
-      "text": "Name of the Government Servant",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Designation",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Date of entering the Central Government",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Whether permanent or temporary",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Home Town as recorded in the Service Book",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "so whether entitled to LTC",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Whether the concession is to be availed for",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "visiting home town and if so block for which",
-      "page": 1
-    },
-    {
-      "level": "H3",
       "text": "10.",
       "page": 1
     },
     {
       "level": "H3",
-      "text": "S.No",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Relationship",
-      "page": 1
-    },
-    {
-      "level": "H3",
       "text": "11.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "S.No",
       "page": 1
     },
     {
@@ -75,6 +30,173 @@
       "level": "H3",
       "text": "Date",
       "page": 1
+    }
+  ],
+  "tables": [
+    {
+      "page": 1,
+      "bbox": [
+        64.71959686279297,
+        132.95999145507812,
+        570.1583935546874,
+        585.0000381469727
+      ],
+      "rows": [
+        [
+          "1.",
+          "Name of the Government Servant",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "2.",
+          "Designation",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "3.",
+          "Date of entering the Central Government\nService",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "4.",
+          "PAY + SI + NPA",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "5.",
+          "Whether permanent or temporary",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "6.",
+          "Home Town as recorded in the Service Book",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "7.",
+          "Whether wife / husband is employed and if\nso whether entitled to LTC",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "8.",
+          "Whether the concession is to be availed for\nvisiting home town and if so block for which\nLTC is to be availed.",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "9.",
+          "(a) If the concession is to visit anywhere in\nIndia, the place to be visited.\n(b) Block for which to be availed.",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "10.",
+          "Single rail fare/bus fare from the\nheadquarters to home town/place of visit by\nshortest route.",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "11.",
+          "Persons in respect of whom LTC is proposed to be av",
+          null,
+          null,
+          "ailed.",
+          null
+        ],
+        [
+          null,
+          "S.No",
+          "Name",
+          null,
+          "Age",
+          "Relationship"
+        ],
+        [
+          null,
+          "1.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          null,
+          "2.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          null,
+          "3.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          null,
+          "4.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          null,
+          "5.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          null,
+          "6.",
+          "",
+          null,
+          "",
+          ""
+        ],
+        [
+          "12.",
+          "Amount of advance required.",
+          null,
+          "Rs.",
+          null,
+          null
+        ]
+      ],
+      "col_count": 6,
+      "row_count": 19
     }
   ]
 }

@@ -2,9 +2,25 @@
   "title": "file05",
   "outline": [
     {
+      "level": "H2",
+      "text": "RSVP:  ----------------",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "CLOSED TOED SHOES  ARE  REQUIRED FOR CLIMBING",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "PLEASE VISIT  TOPJUMP.COM  TO  FILL  OUT  WAIVER",
+      "page": 1
+    },
+    {
       "level": "H1",
-      "text": "HOPE To SEE You THERE!",
+      "text": "HOPE  To  SEE  Y ou  T HERE !",
       "page": 1
     }
-  ]
+  ],
+  "tables": []
 }

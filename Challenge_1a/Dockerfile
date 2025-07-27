@@ -16,7 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY process_pdfs.py .
 
 # Create directories for data
-RUN mkdir -p sample_dataset/pdfs sample_dataset/outputs
+RUN mkdir -p sample_dataset/pdfs sample_dataset/outputs schema
+
 
 # Run the extraction script
 CMD ["python", "process_pdfs.py"]

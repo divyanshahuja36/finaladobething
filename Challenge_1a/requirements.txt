@@ -1,3 +1,21 @@
-PyMuPDF>=1.23.0
-numpy>=1.21.0
-statistics
+# === PDF Processing ===
+PyMuPDF==1.23.14           # Fast PDF parsing and layout analysis (fitz)
+pdfplumber==0.10.3         # Precise table extraction from PDFs
+
+# === Adobe PDF API Support ===
+requests==2.31.0           # Needed for Adobe API HTTP requests
+
+# === Data Processing ===
+pandas==2.1.4              # DataFrame operations
+numpy==1.24.4              # Numerical operations
+
+# === Excel Support (Optional but Recommended) ===
+openpyxl==3.1.2            # Read/write Excel files with pandas
+XlsxWriter==3.1.9          # Write Excel files with formatting (optional)
+
+# === Testing & Coverage (Optional) ===
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# === Python Built-in Modules (No Need to Install) ===
+# json, os, re, csv, collections, typing, statistics
