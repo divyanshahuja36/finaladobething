@@ -1,0 +1,25 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches:
+      - main  # Runs only when main is updated
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Login to Docker Hub (hardcoded)
+        run: echo "${{ secrets.PASSWORD }}" | docker login -u "dahuja36" --password-stdin
+        env:
+          PASSWORD: dckr_pat_qsIFwZJzfOYI6kQgXriXvRpVPaY
+
+      - name: Build Docker image
+        run: docker build -t dahuja36/pdf-outline-app:latest .
+
+      - name: Push to Docker Hub
+        run: docker push dahuja36/pdf-outline-app:latest
