@@ -1,28 +1,25 @@
-name: Build & Push Docker Image from Challenge_1b
+name: Build and Push Docker Image
 
 on:
   push:
     branches:
-      - main
+      - main  # or any branch you want
 
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-    - name: Login to DockerHub
-      run: |
-        echo "Logging in to Docker Hub..."
-        echo "dckr_pat_qsIFwZJzfOYI6kQgXriXvRpVPaY" | docker login -u "dahuja36" --password-stdin
+      - name: Login to Docker Hub
+        run: echo "dckr_pat_WKkZNtd7h6QCF9LpGOKAjbZs1Hw" | docker login -u "dahuja36" --password-stdin
 
-    - name: Build and Push Docker Image
-      run: |
-        cd Challenge_1b
-        docker build -t dahuja36/finaladobething:challenge-1b .
-        docker push dahuja36/finaladobething:challenge-1b
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t dahuja36/challenge1b-image ./Challenge_1b
+          docker push dahuja36/challenge1b-image
