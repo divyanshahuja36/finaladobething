@@ -1,75 +1,243 @@
 {
-    "metadata": {
-        "input_documents": [
-            "South of France - Cities.pdf",
-            "South of France - Cuisine.pdf",
-            "South of France - History.pdf",
-            "South of France - Restaurants and Hotels.pdf",
-            "South of France - Things to Do.pdf",
-            "South of France - Tips and Tricks.pdf",
-            "South of France - Traditions and Culture.pdf"
-        ],
-        "persona": "Travel Planner",
-        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
-        "processing_timestamp": "2025-07-10T15:31:22.632389"
-    },
-    "extracted_sections": [
-        {
-            "document": "South of France - Cities.pdf",
-            "section_title": "Comprehensive Guide to Major Cities in the South of France",
-            "importance_rank": 1,
-            "page_number": 1
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "section_title": "Coastal Adventures",
-            "importance_rank": 2,
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "section_title": "Culinary Experiences",
-            "importance_rank": 3,
-            "page_number": 6
-        },
-        {
-            "document": "South of France - Tips and Tricks.pdf",
-            "section_title": "General Packing Tips and Tricks",
-            "importance_rank": 4,
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "section_title": "Nightlife and Entertainment",
-            "importance_rank": 5,
-            "page_number": 11
-        }
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
     ],
-    "subsection_analysis": [
-        {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "The South of France is renowned for its beautiful coastline along the Mediterranean Sea. Here are some activities to enjoy by the sea: Beach Hopping: Nice - Visit the sandy shores and enjoy the vibrant Promenade des Anglais; Antibes - Relax on the pebbled beaches and explore the charming old town; Saint-Tropez - Experience the exclusive beach clubs and glamorous atmosphere; Marseille to Cassis - Explore the stunning limestone cliffs and hidden coves of Calanques National Park; Îles d'Hyères - Discover pristine beaches and excellent snorkeling opportunities on islands like Porquerolles and Port-Cros; Cannes - Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la Croisette; Menton - Visit the serene beaches and beautiful gardens in this charming town near the Italian border.",
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Cuisine.pdf",
-            "refined_text": "In addition to dining at top restaurants, there are several culinary experiences you should consider: Cooking Classes - Many towns and cities in the South of France offer cooking classes where you can learn to prepare traditional dishes like bouillabaisse, ratatouille, and tarte tropézienne. These classes are a great way to immerse yourself in the local culture and gain hands-on experience with regional recipes. Some classes even include a visit to a local market to shop for fresh ingredients. Wine Tours - The South of France is renowned for its wine regions, including Provence and Languedoc. Take a wine tour to visit vineyards, taste local wines, and learn about the winemaking process. Many wineries offer guided tours and tastings, giving you the opportunity to sample a variety of wines and discover new favorites.",
-            "page_number": 6
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "The South of France offers a vibrant nightlife scene, with options ranging from chic bars to lively nightclubs: Bars and Lounges - Monaco: Enjoy classic cocktails and live jazz at Le Bar Americain, located in the Hôtel de Paris; Nice: Try creative cocktails at Le Comptoir du Marché, a trendy bar in the old town; Cannes: Experience dining and entertainment at La Folie Douce, with live music, DJs, and performances; Marseille: Visit Le Trolleybus, a popular bar with multiple rooms and music styles; Saint-Tropez: Relax at Bar du Port, known for its chic atmosphere and waterfront views. Nightclubs - Saint-Tropez: Dance at the famous Les Caves du Roy, known for its glamorous atmosphere and celebrity clientele; Nice: Party at High Club on the Promenade des Anglais, featuring multiple dance floors and top DJs; Cannes: Enjoy the stylish setting and rooftop terrace at La Suite, offering stunning views of Cannes.",
-            "page_number": 11
-        },
-        {
-            "document": "South of France - Things to Do.pdf",
-            "refined_text": "Water Sports: Cannes, Nice, and Saint-Tropez - Try jet skiing or parasailing for a thrill; Toulon - Dive into the underwater world with scuba diving excursions to explore wrecks; Cerbère-Banyuls - Visit the marine reserve for an unforgettable diving experience; Mediterranean Coast - Charter a yacht or join a sailing tour to explore the coastline and nearby islands; Marseille - Go windsurfing or kitesurfing in the windy bays; Port Grimaud - Rent a paddleboard and explore the canals of this picturesque village; La Ciotat - Try snorkeling in the clear waters around the Île Verte.",
-            "page_number": 2
-        },
-        {
-            "document": "South of France - Tips and Tricks.pdf",
-            "refined_text": "General Packing Tips and Tricks: Layering - The weather can vary, so pack layers to stay comfortable in different temperatures; Versatile Clothing - Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter; Packing Cubes - Use packing cubes to organize your clothes and maximize suitcase space; Roll Your Clothes - Rolling clothes saves space and reduces wrinkles; Travel-Sized Toiletries - Bring travel-sized toiletries to save space and comply with airline regulations; Reusable Bags - Pack a few reusable bags for laundry, shoes, or shopping; First Aid Kit - Include a small first aid kit with band-aids, antiseptic wipes, and any necessary medications; Copies of Important Documents - Make copies of your passport, travel insurance, and other important documents. Keep them separate from the originals.",
-            "page_number": 2
-        }
-    ]
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "generated_query": "As a Travel Planner, I need to Plan a trip of 4 days for a group of 10 college friends.. Focus on information related to planning, itinerary, schedule, activities, budget, accommodation, attractions, transportation, destinations, tours, booking, travel tips. Provide actionable insights that help me organize or coordinate or arrange the relevant aspects. Prioritize practical, detailed information over general overviews.",
+    "total_chunks_processed": 110,
+    "diversity_enforced": true,
+    "processed_time": "2025-07-27T19:54:11.850594Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Tips and Tricks for Packing",
+      "importance_rank": 1,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Gadgets and Accessories",
+      "importance_rank": 2,
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "General Packing Tips and Tricks",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Travel Tips",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Theme Parks and Attractions",
+      "importance_rank": 5,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Budget-Friendly Hotels",
+      "importance_rank": 6,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Educational Experiences",
+      "importance_rank": 7,
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Water Sports",
+      "importance_rank": 8,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Family-Friendly Hotels",
+      "importance_rank": 9,
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Luxurious Hotels",
+      "importance_rank": 10,
+      "page_number": 13
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "Culinary Experiences",
+      "importance_rank": 11,
+      "page_number": 7
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 12,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Aix-en-Provence: A City of Art and Culture",
+      "importance_rank": 13,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Pilgrimages",
+      "importance_rank": 14,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Nice: The Jewel of the French Riviera",
+      "importance_rank": 15,
+      "page_number": 6
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Aix-en-Provence: A City of Art and Culture",
+      "importance_rank": 16,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "section_title": "Must-Visit Restaurants",
+      "importance_rank": 17,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Arles: A Roman Treasure",
+      "importance_rank": 18,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Lavender Products",
+      "importance_rank": 19,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Christmas Traditions",
+      "importance_rank": 20,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Check the Weather: Check the forecast before packing to ensure appropriate clothing. \u2022 Make a Packing List: Create a list to ensure nothing is forgotten. Cross o\ufb00 items as you pack. \u2022 Use Packing Cubes: Organize clothes and maximize space. \u2022 Roll Your Clothes: Save space and reduce wrinkles. \u2022 Pack Dual-Purpose Items: Choose items that serve multiple purposes. \u2022 Wear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase space. \u2022 Pack a Day Bag: Bring a small day bag for daily excursions. \u2022 Leave Room for Souvenirs: Leave extra space or bring a foldable bag for souvenirs. \u2022 Additional Tips: Pack a small travel umbrella, a reusable shopping bag, and a portable phone charger. Consider using a luggage scale to avoid overweight baggage fees.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Electronics: Smartphone, charger, power bank, and other devices. Bring a travel adapter if needed. \u2022 Camera: Capture memories with a camera, extra batteries, and memory cards. \u2022 Books and Entertainment: A book, e-reader, or tablet for entertainment during travel. \u2022 Additional Tips: Download maps and travel guides to your devices for o\ufb04ine use. Consider bringing a portable Wi-Fi hotspot for reliable internet access.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Layering: The weather can vary, so pack layers to stay comfortable in di\ufb00erent temperatures. \u2022 Versatile Clothing: Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter. \u2022 Packing Cubes: Use packing cubes to organize your clothes and maximize suitcase space. \u2022 Roll Your Clothes: Rolling clothes saves space and reduces wrinkles. \u2022 Travel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with airline regulations. \u2022 Reusable Bags: Pack a few reusable bags for laundry, shoes, or shopping. \u2022 First Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any necessary medications. \u2022 Copies of Important Documents: Make copies of your passport, travel insurance, and other important documents. Keep them separate from the originals. \u2022 Portable Laundry Kit: A small laundry kit with detergent and a travel clothesline can be handy for longer trips. \u2022 Multi-Purpose Shoes: Choose shoes that are comfortable for walking but can also be worn to a nice dinner. \u2022 Travel Pillow and Blanket: A compact travel pillow and blanket can make long flights or train rides more comfortable. \u2022 Ziplock Bags: Use ziplock bags for liquids, snacks, or to keep items organized and protected from spills. \u2022 Emergency Contact List: Have a list of emergency contacts, including local embassy or consulate information.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "\u2022 Best Time to Visit: The best time to visit the South of France is during the spring (April to June) and fall (September to October) when the weather is pleasant, and the tourist crowds are smaller. \u2022 Transportation: The region is well-connected by an extensive network of trains, buses, and flights. Renting a car is also a great option for exploring the countryside and smaller towns. \u2022 Language: While French is the o\ufb03cial language, English is widely spoken in tourist areas. Learning a few basic French phrases can enhance your travel experience.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Antibes: Visit Marineland for marine shows and an aquarium. \u2022 Fr\u00e9jus: Cool o\ufb00 at Aqualand water park. \u2022 Villeneuve-Loubet: Enjoy quirky attractions at Le Village des Fous. \u2022 Monteux: Spend a day at Parc Spirou, a theme park based on the famous comic book character. \u2022 La Palmyre: Explore the La Palmyre Zoo, home to a wide variety of animals. \u2022 Cap d'Agde: Have fun at Luna Park, an amusement park with rides and games. \u2022 Toulouse: Visit the Cit\u00e9 de l'Espace, a space-themed science museum with interactive exhibits.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 Ibis Budget Nice Californie Lenval (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy access to the beach and city center. The modern amenities and convenient location make it a great choice for budget-conscious travelers. \u2022 Hotel Le Saint Paul (Nice): A charming hotel located in a historic building, o\ufb00ering a\ufb00ordable rates and beautiful views of the Mediterranean. The cozy rooms and friendly service make it a pleasant stay. \u2022 Hotel des Arts (Montpellier): A budget-friendly hotel located in the heart of Montpellier, o\ufb00ering comfortable rooms and easy access to the city's attractions. The artistic decor and central location make it a popular choice. \u2022 Hotel Le Mistral (Marseille): A budget-friendly hotel o\ufb00ering simple, clean rooms and a convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00ordable rates make it a good option for travelers on a budget. \u2022 Hotel Azur (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy access to the beach and city center. The modern amenities and convenient location make it a great choice for budget-conscious travelers. \u2022 Hotel de la Paix (Marseille): A budget-friendly hotel o\ufb00ering simple, clean rooms and a convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00ordable rates make it a good option for travelers on a budget. \u2022 Hotel du Palais (Montpellier): A budget-friendly hotel located in the heart of Montpellier, o\ufb00ering comfortable rooms and easy access to the city's attractions. The artistic decor and central location make it a popular choice. \u2022 Hotel de la Mer (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy access to the beach and city center. The modern amenities and convenient location make it a great choice for budget-conscious travelers. \u2022 Hotel de la Plage (Marseille): A budget-friendly hotel o\ufb00ering simple, clean rooms and a convenient location near the Old Port. The friendly sta\ufb00 and a\ufb00ordable rates make it a good option for travelers on a budget. \u2022 Hotel de la Gare (Montpellier): A budget-friendly hotel located in the heart of Montpellier, o\ufb00ering comfortable rooms and easy access to the city's attractions. The artistic decor and central location make it a popular choice.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Toulouse: Visit Cit\u00e9 de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station. \u2022 Monaco: Explore the Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a shark lagoon and touch tanks. \u2022 Dordogne: See ancient cave paintings at prehistoric sites like Lascaux and Rou\ufb03gnac, and visit museums dedicated to prehistoric life. \u2022 Montpellier: Discover the Planet Ocean World, an aquarium and planetarium with interactive exhibits. \u2022 Carcassonne: Take a guided tour of the medieval citadel and learn about its history and architecture. \u2022 N\u00eemes: Visit the Roman amphitheater and learn about ancient Roman history. \u2022 Arles: Explore the Roman ruins and the Mus\u00e9e de l'Arles Antique, which showcases artifacts from the city's past.",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Cannes, Nice, and Saint-Tropez: Try jet skiing or parasailing for a thrill. \u2022 Toulon: Dive into the underwater world with scuba diving excursions to explore wrecks. \u2022 Cerb\u00e8re-Banyuls: Visit the marine reserve for an unforgettable diving experience. \u2022 Mediterranean Coast: Charter a yacht or join a sailing tour to explore the coastline and nearby islands. \u2022 Marseille: Go windsurfing or kitesurfing in the windy bays. \u2022 Port Grimaud: Rent a paddleboard and explore the canals of this picturesque village. \u2022 La Ciotat: Try snorkeling in the clear waters around the \u00cele Verte.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 Club Med Opio en Provence (Opio): A family-friendly resort o\ufb00ering a wide range of activities for children and adults, including sports, entertainment, and kids' clubs. The beautiful setting and all-inclusive amenities make it a hassle-free vacation spot. \u2022 Le Mas de Pierre (Saint-Paul-de-Vence): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel Les Roches Rouges (Saint-Rapha\u00ebl): A family-friendly hotel located on the beach, o\ufb00ering comfortable rooms, a kids' club, and a variety of water sports. The beachfront location and family-oriented amenities make it a great choice for a seaside vacation. \u2022 Ch\u00e2teau de Berne (Lorgues): A family-friendly hotel located on a vineyard, o\ufb00ering spacious rooms, a kids' club, and a variety of outdoor activities. The picturesque setting and family-friendly facilities make it a unique and enjoyable stay. \u2022 H\u00f4tel Barri\u00e8re Le Majestic (Cannes): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel du Cap-Eden-Roc (Antibes): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel Royal Riviera (Saint-Jean-Cap-Ferrat): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel Le Negresco (Nice): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel Martinez (Cannes): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families. \u2022 H\u00f4tel de Paris (Monaco): A luxurious family-friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families.",
+      "page_number": 10
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 Grand-H\u00f4tel du Cap-Ferrat, A Four Seasons Hotel (Saint-Jean-Cap-Ferrat): A luxurious hotel set on 7 hectares of Mediterranean gardens, o\ufb00ering elegant rooms, a spa, and a private beach. The exclusive setting and world-class amenities make it a top choice for luxury travelers. \u2022 H\u00f4tel de Paris Monte-Carlo (Monaco): A luxurious hotel located in the heart of Monaco, o\ufb00ering opulent rooms, a world-class spa, and several Michelin-starred restaurants. The historic grandeur and exceptional service make it a premier destination. \u2022 Ch\u00e2teau Saint-Martin & Spa (Vence): A luxurious hotel set in a historic ch\u00e2teau, o\ufb00ering elegant rooms, a Michelin-starred restaurant, and a world-class spa. The tranquil setting and luxurious amenities make it a perfect getaway. \u2022 Airelles Ch\u00e2teau de la Messardi\u00e8re (Saint-Tropez): A luxurious hotel set in a historic ch\u00e2teau, o\ufb00ering elegant rooms, beautiful gardens, and stunning views of the Mediterranean. The refined ambiance and top-tier services make it a standout choice for luxury accommodations. \u2022 H\u00f4tel du Cap-Eden-Roc (Antibes): A legendary hotel o\ufb00ering luxurious rooms, a private beach, and a world-class spa. The stunning location and impeccable service make it a favorite among celebrities and discerning travelers. \u2022 La R\u00e9serve Ramatuelle (Ramatuelle): A luxurious hotel o\ufb00ering elegant rooms, a spa, and breathtaking views of the Mediterranean. The serene setting and exceptional service make it a top choice for a relaxing retreat. \u2022 Villa La Coste (Le Puy-Sainte-R\u00e9parade): A luxurious hotel set in a vineyard, o\ufb00ering elegant rooms, a spa, and a Michelin-starred restaurant. The artistic ambiance and world-class amenities make it a unique and memorable stay. \u2022 H\u00f4tel Hermitage Monte-Carlo (Monaco): A luxurious hotel o\ufb00ering opulent rooms, a world-class spa, and several fine dining options. The historic charm and exceptional service make it a premier destination in Monaco. \u2022 Le Byblos (Saint-Tropez): A luxurious hotel o\ufb00ering elegant rooms, a spa, and a vibrant nightlife scene. The glamorous setting and top-notch amenities make it a favorite among the jet set. \u2022 H\u00f4tel M\u00e9tropole Monte-Carlo (Monaco): A luxurious hotel o\ufb00ering opulent rooms, a world-class spa, and several Michelin-starred restaurants. The refined elegance and exceptional service make it a top choice for luxury travelers.",
+      "page_number": 13
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "In addition to dining at top restaurants, there are several culinary experiences you should consider: \u2022 Cooking Classes: Many towns and cities in the South of France o\ufb00er cooking classes where you can learn to prepare traditional dishes like bouillabaisse, ratatouille, and tarte trop\u00e9zienne. These classes are a great way to immerse yourself in the local culture and gain hands-on experience with regional recipes. Some classes even include a visit to a local market to shop for fresh ingredients. \u2022 Food Markets: Visit local markets such as the Cours Saleya Market in Nice or the March\u00e9 Forville in Cannes to sample fresh produce, cheeses, and charcuterie. These markets are a feast for the senses, with stalls overflowing with colorful fruits and vegetables, fragrant herbs, and artisanal products. Take the time to chat with the vendors and learn about the local specialties. \u2022 Wine Tours: The South of France is renowned for its wine regions, including Provence and Languedoc. Take a wine tour to visit vineyards, taste local wines, and learn about the winemaking process. Many wineries o\ufb00er guided tours and tastings, giving you the opportunity to sample a variety of wines and discover new favorites. Don't miss the chance to try ros\u00e9 from Provence, which is famous for its light, refreshing flavor. \u2022 Olive Oil Tasting: The region is famous for its olive oil. Visit an olive grove to learn about olive oil production and enjoy a tasting session. You'll have the chance to sample di\ufb00erent varieties of olive oil and learn about the nuances of flavor and aroma. Many olive groves also produce other products like tapenade and olive soap, which make great souvenirs. \u2022 Tru\ufb04e Hunting: The South of France is known for its tru\ufb04es, particularly the black tru\ufb04es from the P\u00e9rigord region. Join a tru\ufb04e hunting tour to experience the thrill of searching for these prized fungi. You'll be accompanied by a trained tru\ufb04e dog and a knowledgeable guide who will teach you about the tru\ufb04e's history and culinary uses. After the hunt, enjoy a tru\ufb04e-themed meal featuring your freshly harvested finds. \u2022 Farm-to-Table Dining: Many restaurants in the South of France embrace the farm-to-table philosophy, sourcing their ingredients from local farms and producers. Look for restaurants that highlight seasonal, locally grown produce and sustainably raised meats. Dining at a farm-to-table restaurant is a wonderful way to support local agriculture and enjoy the freshest ingredients available. \u2022 Cheese Tasting: The South of France is home to a variety of delicious cheeses, including Roquefort, Banon, and Picodon. Visit a local fromagerie (cheese shop) or a farm to sample these cheeses and learn about their production. Many cheese producers o\ufb00er tours and tastings, giving you the opportunity to discover the unique flavors and textures of the region's cheeses. \u2022 Pastry Workshops: French pastries are renowned worldwide, and the South of France is no exception. Join a pastry workshop to learn how to make classic French pastries like croissants, \u00e9clairs, and macarons. These workshops are a fun and interactive way to improve your baking skills and take home some delicious treats.",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "The South of France, renowned for its picturesque landscapes, charming villages, and stunning coastline, is also steeped in history. From ancient Roman ruins to medieval fortresses and Renaissance architecture, this region o\ufb00ers a fascinating glimpse into the past. This guide will take you through the histories of major cities, famous historical sites, and other points of interest to help you plan an enriching and unforgettable trip.",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History Aix-en-Provence, founded by the Romans in 123 BC, is known for its elegant architecture, vibrant cultural scene, and association with the painter Paul C\u00e9zanne. The city's rich history is reflected in its beautiful buildings and lively atmosphere. Aix-en-Provence has been a center of art and learning for centuries, attracting artists, writers, and scholars. Key Attractions \u2022 Cours Mirabeau: This grand boulevard, lined with plane trees, cafes, and fountains, is the heart of Aix-en-Provence. It is a great place to soak up the city's atmosphere. \u2022 Saint-Sauveur Cathedral: This cathedral, built between the 5th and 17th centuries, features a mix of architectural styles, including Romanesque, Gothic, and Baroque. It is known for its beautiful cloister and triptych by Nicolas Froment. \u2022 H\u00f4tel de Ville: The town hall of Aix-en-Provence, built in the 17th century, is an elegant building with a beautiful clock tower and an ornate facade. The square in front of the H\u00f4tel de Ville is a lively spot, often hosting markets and events. \u2022 Atelier C\u00e9zanne: The studio of Paul C\u00e9zanne, one of the most famous painters associated with Aix-en-Provence, is preserved as a museum. Visitors can see where C\u00e9zanne created many of his masterpieces and gain insight into his artistic process. Artistic Heritage \u2022 Walking Tour: Take a walking tour of sites related to Paul C\u00e9zanne, such as the Terrain des Peintres and the Bib\u00e9mus Quarry. \u2022 Local Markets: Visit the city's famous markets, such as the flower market at Place de l'H\u00f4tel de Ville or the food market at Place Richelme. Cultural Highlights Aix-en-Provence is known for its vibrant arts scene, with numerous galleries, theaters, and music venues. The city hosts several festivals throughout the year, including the Festival d'Aix-en-Provence, which features opera and classical music performances. Aix-en-Provence's cuisine is also a highlight, with local specialties such as calissons (almond-shaped candies) and Proven\u00e7al dishes made with fresh, local ingredients.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "The South of France is home to several important pilgrimage sites. The town of Lourdes, located in the Pyrenees, is one of the most famous, attracting millions of visitors each year. Pilgrims come to Lourdes to visit the Sanctuary of Our Lady of Lourdes, where the Virgin Mary is said to have appeared to a young girl in 1858. The town of Saintes-Maries-de-la-Mer is another significant pilgrimage site, particularly for the Romani community, who venerate Saint Sara.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History Nice, located on the French Riviera, has been a popular destination for centuries. Its history dates back to the ancient Greeks, who founded the city around 350 BC. Nice later became a Roman colony and has since evolved into a glamorous resort town. In the 19th century, Nice became a favorite winter retreat for European aristocrats, which contributed to its development as a luxurious destination. Key Attractions \u2022 Promenade des Anglais: This famous seaside promenade, built in the 19th century, is perfect for a leisurely stroll along the coast. It o\ufb00ers stunning views of the Mediterranean and is lined with cafes and hotels. \u2022 Castle Hill (Colline du Ch\u00e2teau): This hilltop park o\ufb00ers panoramic views of Nice and the Mediterranean. It was once the site of a medieval castle, which was destroyed in the 18th century. \u2022 Old Town (Vieux Nice): The historic center of Nice is a labyrinth of narrow streets, baroque churches, and bustling markets. Don't miss the Cours Saleya market, where you can find fresh produce, flowers, and local delicacies. \u2022 Matisse Museum: Dedicated to the works of Henri Matisse, who spent much of his life in Nice, this museum features a comprehensive collection of his paintings, sculptures, and drawings. Hidden Gems \u2022 Russian Orthodox Cathedral: Visit the stunning Russian Orthodox Cathedral, a unique architectural gem in Nice. \u2022 Marc Chagall National Museum: Explore the works of Marc Chagall at this dedicated museum. \u2022 Parc Phoenix: Discover the botanical wonders at Parc Phoenix, a beautiful garden and park. Cultural Highlights Nice is renowned for its vibrant cultural scene, with numerous museums, galleries, and theaters. The city hosts the Nice Carnival in February, one of the largest and oldest carnivals in the world. The Nice Jazz Festival, held in July, is another major event that attracts music lovers from around the globe. Nice's cuisine is also a highlight, with dishes like salade ni\u00e7oise and socca (a chickpea flour pancake) being local specialties.",
+      "page_number": 6
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Aix-en-Provence, founded by the Romans in 123 BC, is known for its elegant architecture, vibrant cultural scene, and association with the painter Paul C\u00e9zanne. The city's rich history is reflected in its beautiful buildings and lively atmosphere. Key Historical Sites in Aix-en-Provence \u2022 Cours Mirabeau: This grand boulevard, lined with plane trees, cafes, and fountains, is the heart of Aix-en-Provence. It is a great place to soak up the city's atmosphere. \u2022 Saint-Sauveur Cathedral: This cathedral, built between the 5th and 17th centuries, features a mix of architectural styles, including Romanesque, Gothic, and Baroque. It is known for its beautiful cloister and triptych by Nicolas Froment. \u2022 H\u00f4tel de Ville: The town hall of Aix-en-Provence, built in the 17th century, is an elegant building with a beautiful clock tower and an ornate facade. The square in front of the H\u00f4tel de Ville is a lively spot, often hosting markets and events. \u2022 Atelier C\u00e9zanne: The studio of Paul C\u00e9zanne, one of the most famous painters associated with Aix-en-Provence, is preserved as a museum. Visitors can see where C\u00e9zanne created many of his masterpieces and gain insight into his artistic process. \u2022 Thermal Springs: Aix-en-Provence was originally founded as a Roman spa town due to its thermal springs, which are still in use today at the Thermes Sextius. \u2022 Festival d'Aix-en-Provence: An annual opera festival held in July, it is one of the most prestigious opera festivals in Europe.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Cuisine.pdf",
+      "refined_text": "To truly experience the culinary delights of the South of France, here are some restaurants you should consider visiting: \u2022 Le Petit Nice Passedat (Marseille): A three-Michelin-starred restaurant o\ufb00ering exquisite seafood dishes and stunning views of the Mediterranean. Chef G\u00e9rald Passedat is known for his innovative approach to seafood, creating dishes that are both visually stunning and incredibly flavorful. The restaurant's location on the cli\ufb00s overlooking the sea adds to the overall dining experience. \u2022 La Ch\u00e8vre d'Or (\u00c8ze): Located in a medieval village, this two-Michelin-starred restaurant serves refined Proven\u00e7al cuisine with breathtaking views of the French Riviera. The restaurant's terrace o\ufb00ers panoramic views of the Mediterranean, making it the perfect spot for a romantic dinner. The menu features dishes that highlight the region's fresh, seasonal ingredients. \u2022 Le Mirazur (Menton): Ranked among the world's best restaurants, Le Mirazur o\ufb00ers a unique dining experience with a focus on fresh, local ingredients and innovative dishes. Chef Mauro Colagreco's cuisine is inspired by the surrounding landscape, with many ingredients sourced from the restaurant's own gardens. The menu changes with the seasons, ensuring that each visit is a new and exciting experience. \u2022 Chez Pipo (Nice): A local favorite for Socca, this casual eatery is perfect for a quick and delicious snack. Chez Pipo has been serving Socca since 1923 and is a beloved institution in Nice. The restaurant's simple, no-frills approach allows the quality of the Socca to shine through. \u2022 L'Atelier de Jean-Luc Rabanel (Arles): A Michelin-starred restaurant known for its creative and contemporary take on Proven\u00e7al cuisine. Chef Jean-Luc Rabanel's dishes are a feast for the senses, combining bold flavors with artistic presentation. The restaurant's tasting menu o\ufb00ers a journey through the flavors of Provence, with each course showcasing the region's finest ingredients. \u2022 La Table de Plaisance (Saint-\u00c9milion): A two-Michelin-starred restaurant o\ufb00ering a sophisticated menu that highlights the flavors of the region. The restaurant is located in a historic building in the heart of Saint-\u00c9milion, a town known for its world-class wines. The menu features dishes that pair beautifully with the local wines, creating a truly memorable dining experience.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Arles, located on the banks of the Rh\u00f4ne River, is renowned for its Roman and Romanesque monuments. The city was an important Roman settlement and later became a center of Christian pilgrimage. Key Historical Sites in Arles \u2022 Arles Amphitheatre: This Roman amphitheater, built in the 1st century AD, is still used for events such as bullfights and concerts. It is one of the best-preserved Roman structures in France. \u2022 Church of St. Trophime: This Romanesque church, built in the 12th century, is known for its stunning portal and cloister. It was an important stop on the pilgrimage route to Santiago de Compostela. \u2022 Alyscamps: This ancient Roman necropolis, located just outside the city walls, was a major burial site in antiquity. It features a long avenue lined with sarcophagi. \u2022 Thermes de Constantin: These Roman baths, built in the 4th century AD, are a testament to the city's importance during the Roman period. \u2022 Van Gogh's Influence: Arles is also famous for its association with Vincent van Gogh, who created over 300 works of art during his time in the city. The Van Gogh Foundation in Arles celebrates his legacy. \u2022 Cryptoporticus: An underground gallery built by the Romans in the 1st century BC, it served as a foundation for the Forum and is one of the few remaining examples of such structures.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Lavender is synonymous with Provence, and the region's lavender fields are a major attraction. The fragrant flowers are harvested to produce a variety of products, including essential oils, soaps, and sachets. Lavender festivals, such as the one in Sault in July, celebrate the harvest with parades, music, and markets. Visitors can also tour lavender farms and distilleries to learn about the production process.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Christmas in Provence is marked by unique traditions that reflect the region's cultural heritage. One of the most distinctive customs is the \"13 Desserts,\" a feast of thirteen di\ufb00erent sweets served after Midnight Mass on Christmas Eve. The number represents Jesus and the twelve apostles. Another tradition is the \"santon\" figurines, which are handcrafted clay figures used to create nativity scenes. Santon fairs, such as the one in Marseille, o\ufb00er a wide variety of these charming figures.",
+      "page_number": 4
+    }
+  ]
 }
